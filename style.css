@@ -1,0 +1,81 @@
+#message{
+    height: 2.5cm;
+    width: 10.8cm;
+    border: 1px solid rgb(186, 180, 180);!important
+    border-radius: 4px;
+    margin: 6px;
+}
+#subject{
+    
+    width: 10.8cm;
+    border: 1px solid rgb(186, 180, 180);!important
+    border-radius: 4px;
+    margin: 6px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 12cm;
+    margin-top: 1cm;
+    margin-right: 10cm;
+    padding: 9px;
+    background-color: azure;
+    
+    
+}
+.mainblock{
+    background-color: rgb(81, 131, 148);
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-weight: 400;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]
+
+{
+    border: 1px solid rgb(186, 180, 180);
+    border-radius: 4px;
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#phone{
+    width: 3.3cm;
+}
+input[type="submit"]
+{
+    border: 1px solid black;
+    
+    border-bottom-right-radius: 0.5cm;
+    border-top-left-radius: 0.5cm;
+    
+    background-color: rgb(81, 131, 148);
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    text-align: center;
+    padding: 4px;
+    margin-left: 7cm;
+}
+.img{
+    height: 4cm;
+    width: 5cm;
+    margin-left: 6.1cm;
+    
+}
+input[type="submit"]:hover
+{
+    background-color: rgb(167, 186, 192);
+    border-bottom-right-radius: 0cm;
+    border-top-left-radius: 0cm;
+    border-bottom-left-radius: 0.5cm;
+    border-top-right-radius: 0.5cm;
+}
+.cont{
+    text-shadow: 1.5px 2px;
+}
+
